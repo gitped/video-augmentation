@@ -2,6 +2,21 @@
 
 This project contains Python scripts for augmenting video datasets by a factor of 10 to enhance machine learning model training. Each video undergoes augmentation with varying illumination factors using gamma correction techniques.
 
+## Table of Contents
+1. [Introduction](#video-augmentation-for-machine-learning-datasets)
+   - [Limitations](#limitations)
+   - [Future Work Ideas](#future-work-ideas)
+
+2. [Main Script](#main-script)
+
+3. [Troubleshooting](#troubleshooting)
+   - [Visualize the Contents of a Folder](#visualize-the-contents-of-a-folder)
+   - [Incomplete Augmentation](#if-datasetfolder-augmentation-is-incomplete)
+   - [Check for Correct Augmentation](#check-for-correct-augmentation)
+   - [Check for Rotation](#check-for-rotation)
+
+4. [Correction Script](#correction-script)
+
 ### Limitations
 These scripts are designed for implementation on Google Colab, utilizing Google Drive as a storage unit. They are thus constrained by the capacities of these non-local environments and by dataset sizes.
 
